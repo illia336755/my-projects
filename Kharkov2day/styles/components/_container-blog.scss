@@ -1,0 +1,217 @@
+.container-blog { 
+  display: block;
+  position: relative;
+  max-width: 1440px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+
+  @media (min-width: 765px) and (max-width: 1025px) {
+    max-width: 1025px;
+  }
+
+  .blog-cont2 {
+    position: relative;
+    width: 90%;
+    max-width: 1210px;
+    margin: 0 auto;
+    height: 380px;
+    display: block;
+
+    @media (min-width: 765px) and (max-width: 1025px) {
+      width: 100%;
+      max-width: 1025px;
+    }
+
+    @media (min-width: 375px) and (max-width: 765px) {
+      width: 91%;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      margin-top: 35px;
+      margin-bottom: 25px;
+      padding-left: 4%;
+
+      @media (min-width: 765px) and (max-width: 1025px) {
+        padding-left: 2%;
+      }
+
+      @media (min-width: 375px) and (max-width: 765px) {
+        padding-left: 0;
+      }
+    }
+
+    .arrow-left {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 25px;
+      margin-top: 10%;
+      margin-right: 8px;
+      float: left;
+
+      @media (min-width: 375px) and (max-width: 1025px) {
+        display: none;
+      }
+
+      a {
+        color: $burgundy; 
+      }
+    }
+
+    .photo-people {
+      width: 30%;
+      position: relative;
+      max-width: 360px;
+      display: inline-block;
+      margin-left: 20px;
+      margin-bottom: 4%;
+      background: $light-gray;
+      float: left;
+
+      @media (min-width: 765px) and (max-width: 1025px) {
+        width: 44%;
+        max-width: 460px;
+      }
+
+      @media (min-width: 375px) and (max-width: 765px) {
+        width: 94%;
+        max-width: 600px;
+        display: block;
+        margin-left: 0;
+      }
+
+      img {
+        max-width: 360px;
+        width: 100%;
+        height: 260px;
+
+        @media (min-width: 765px) and (max-width: 1025px) {
+          max-width: 460px;
+          width: 100%;
+        }
+
+        @media (min-width: 375px) and (max-width: 765px) {
+          max-width: 600px;
+          width: 100%;
+          height: 300px;
+        }
+      }
+
+      .people-text {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 0 20px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+
+        h4 {
+          color: $white;
+          margin: 0;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+        }
+
+        a {
+          text-decoration: none;
+       
+          h3 {
+            max-width: 275px;
+            margin: 12px 0;
+            color: $white;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            transition: all 0.2s ease-out;
+
+            @media (min-width: 375px) and (max-width: 765px) {
+              padding-left: 0;
+              max-width: 485px;
+            }
+
+            &:hover {
+              color: $burgundy;
+            }
+          }
+        }
+
+        h5 {
+          color: $white;
+          margin: 11px 0 17px;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+    }
+
+    .gg {
+
+      @media (min-width: 375px) and (max-width: 1025px) {
+        display: none;
+      }
+    }
+
+    .hh {
+      @media (min-width: 375px) and (max-width: 765px) {
+        display: none;
+      }
+    }
+
+    .arrow-right {
+      position: absolute;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 25px;
+      float: right;
+      margin-top: 10%;
+      margin-left: 30px;
+
+      @media (min-width: 765px) and (max-width: 1025px) {
+        margin-top: 12%;
+      }
+
+      @media (min-width: 375px) and (max-width: 765px) {
+        bottom: 170px;
+      }
+
+      a {
+        color: $burgundy; 
+      }
+    }
+
+    .button {
+      text-align: center;
+      margin-top: 25px;
+
+      .button-red {
+        width: 100%;
+        max-width: 300px;
+        height: 40px;
+        border: none;
+        background: $burgundy;
+        color: $white;
+        font-weight: 700;
+        border-radius: 3px;
+        transition: all 0.2s ease-out;
+        cursor: pointer;
+
+        @media (min-width: 765px) and (max-width: 1025px) {
+          width: 25%;
+        }
+
+        @media (min-width: 375px) and (max-width: 765px) {
+          max-width: 100px;
+        }
+
+        &:hover {
+          border: 1px solid $burgundy;
+          background: $white;
+          color: $burgundy;
+        }
+      }
+    }
+  }
+}

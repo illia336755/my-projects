@@ -1,0 +1,70 @@
+main {
+  width: 100%;
+  max-width: 1600px;
+
+  .container-clothes {
+  	margin: 0 auto;
+  	padding: 100px 210px 190px 210px;
+
+  	.clothes {
+  	  display: block;
+
+  	  .hed {
+        display: flex;
+
+        h3 {
+          width: 100%;
+          max-width: 190px;
+          display: block;
+          white-space: nowrap;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 35px;
+          line-height: 45px;
+  	    }
+
+  	    p {
+          margin-left: 69%;
+          margin-top: 6.5%;
+          width: 100%;
+          max-width: 55px;
+
+
+          a {
+          	font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            text-decoration: none;
+            color: $gray;
+          }
+  	    }
+  	  }
+
+  	  .big-block {
+  	  	display: flex;
+
+  	  	.block {
+  	  	  width: 251px;
+          padding-right: 63px;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+
+          p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 134%;
+          }
+  	  	}
+
+  	  	.not {
+  	  	  padding: 0;
+  	  	}
+  	  }
+  	}
+  }
+}

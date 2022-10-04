@@ -1,0 +1,162 @@
+.container-week {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(../pictures/2@2x.png);
+
+  .week-cont2 {
+    max-width: calc(100% - 312px);
+    margin: 0 auto;
+
+    @media (min-width: 375px) and (max-width: 1025px) {
+      max-width: calc(100% - 30px);
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      margin: 35px 0px 25px;
+      color: $burgundy;
+      padding-top: 45px;
+    }
+
+    .photo-block {
+      width: 31%;
+      position: relative;
+      max-width: 360px;
+      display: inline-block;
+      background: $light-gray;
+      float: left;
+      margin-bottom: 4%;
+
+      @media (min-width: 375px) and (max-width: 765px) {
+        display: block;
+        width: 100%;
+        max-width: 765px;
+      }
+
+      a {
+        width: 100%;
+        max-width: 320px;
+        height: 190px; 
+
+        img {
+          width: 89%;
+          max-width: 320px;
+          height: 190px;
+          padding: 20px 20px 15px 20px;
+
+          @media (min-width: 375px) and (max-width: 765px) {
+            width: 100%;
+            max-width: 765px;
+            height: 300px;
+            padding: 0;
+          }
+        }
+      }
+
+      a {
+        text-decoration: none;
+        transition: all 0.2s ease-out;
+        color: $black;
+
+
+        h3 {
+          width: 90%;
+          max-width: 280px;
+          padding: 0 20px;
+          color: $black;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          margin: 0;
+          transition: all 0.2s ease-out;
+
+          @media (min-width: 375px) and (max-width: 765px) {
+            width: 95%;
+            max-width: 765px;
+            padding-top: 20px;
+          }
+
+          &:hover {
+            color: $burgundy;
+          }
+        }
+      }
+
+      p {
+        width: 90%;
+        max-width: 325px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        @media (min-width: 375px) and (max-width: 765px) {
+          font-size: 1em;
+          width: 90%;
+          max-width: 765px;
+        }
+      }
+
+      h5 {
+        width: 90%;
+        max-width: 150px;
+        padding-left: 20px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: $gray-text;
+        margin-top: 0;
+
+        @media (min-width: 375px) and (max-width: 765px) {
+          font-size: .857em;
+          max-width: 350px;
+        }
+      }
+    }
+
+    .g2 {
+      margin-left: 20px;
+
+      @media (min-width: 375px) and (max-width: 765px) {
+        margin-left: 0;
+      }
+    }
+
+    .button {
+      text-align: center;
+      margin-top: 25px;
+
+      .button-red {
+        width: 100%;
+        max-width: 300px;
+        height: 40px;
+        border: none;
+        background: $burgundy;
+        color: $white;
+        font-weight: 700;
+        border-radius: 3px;
+        transition: all 0.2s ease-out;
+        cursor: pointer;
+
+        @media (min-width: 765px) and (max-width: 1025px) {
+          width: 26%;
+        }
+
+        @media (min-width: 375px) and (max-width: 765px) {
+          max-width: 100px;
+        }
+
+        &:hover {
+          border: 1px solid $burgundy;
+          background: $white;
+          color: $burgundy;
+        }
+      }
+    }
+  }
+}

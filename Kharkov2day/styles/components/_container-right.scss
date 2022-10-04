@@ -1,0 +1,284 @@
+.container-right {
+  display: inline-block;
+  width: 66%;
+  float: right;
+  max-width: 740px;
+  margin: 30px 0;
+
+  @media (min-width: 375px) and (max-width: 1025px) {
+    max-width: 1025px;
+    width: 100%;
+    display: block;
+  }
+
+  .photo1 {
+    width: 100%;
+    max-width: 740px;
+    position: relative;
+    height: 380px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, $black 100%);
+    overflow: hidden;
+
+    @media (min-width: 765px) and (max-width: 1025px) {
+      max-width: 1025px;
+    }
+
+    @media (min-width: 375px) and (max-width: 765px) {
+      max-width: 765px;
+      height: 300px;
+    }
+
+    a {
+      display: block;
+      height: 100%;
+      
+      img {
+        width: 100%;
+        max-width: 740px;
+        height: 380px;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+
+        @media (min-width: 765px) and (max-width: 1025px) {
+          max-width: 1025px;
+        }
+
+        @media (min-width: 375px) and (max-width: 765px) {
+          max-width: 740px;
+          height: 300px;
+        }
+      }
+    }
+
+    .arrows {
+      position: absolute;
+      width: 100%;
+      bottom: 50%;
+      cursor: pointer;
+
+      a {
+        .fa-chevron-left, .fas {
+          float: left;
+          color: $white;
+          font-size: 25px;
+          padding: 0 20px;
+          transition: all 0.2s ease-out;
+
+          &:hover {
+            color: $burgundy;
+          }
+        }
+
+        .fa-chevron-right {
+          float: right;
+        }  
+      }
+    }
+
+    .photo-text {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 0 20px;
+      z-index: 1;
+
+      h5 {
+        color: $white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 15px;
+        margin-bottom: 0;
+        cursor: pointer;
+
+        @media (min-width: 375px) and (max-width: 765px) {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+
+      a {
+        text-decoration: none;
+
+        h2 {
+          width: 95%;
+          color: $white;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 29px;
+          margin-top: 1%;
+          margin-bottom: 1%;
+          transition: all 0.2s ease-out;
+
+          @media (min-width: 375px) and (max-width: 765px) {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+          }
+
+          &:hover {
+            color: $burgundy;
+          }
+        }
+      }
+
+      .circles {
+        width: 100%;
+        max-width: 70px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 15px;
+
+        a {
+          .far, .fas {
+            color: $white;
+            font-size: 10px;
+            padding: 0 5px;
+            transition: all 0.2s ease-out;
+
+            &:hover {
+              color: $burgundy;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .photo2 {
+    width: 48.5%;
+    max-width: 360px;
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    margin-top: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+
+    @media (min-width: 765px) and (max-width: 1025px) {
+      max-width: 500px;
+    }
+
+    @media (min-width: 375px) and (max-width: 765px) {
+      display: block;
+      width: 100%;
+      max-width: 765px;
+    }
+
+    a {
+      display: block;
+      height: 100%;
+
+      img {
+        width: 100%;
+        max-width: 360px;
+        height: 300px;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+
+        @media (min-width: 765px) and (max-width: 1025px) {
+          max-width: 500px;
+        }
+
+        @media (min-width: 375px) and (max-width: 765px) {
+          width: 100%;
+          max-width: 765px;
+        }
+      }
+    }
+
+    .photo-text {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 0 20px;
+
+      h5 {
+        color: $white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+
+      a {
+        width: 90%;
+        max-width: 300px;
+        text-decoration: none;
+        color: $white;
+        transition: all 0.2s ease-out;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+
+        &:hover {
+          color: $burgundy;
+        }
+
+        h2 {
+          width: 95%;
+          color: $white;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          margin-top: 1%;
+          margin-bottom: 1%;
+        }
+      }
+    }
+  }
+
+  .gg {
+    float: right;
+
+    @media (min-width: 375px) and (max-width: 765px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .button {
+    height: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+
+    @media (min-width: 375px) and (max-width: 765px) {
+      margin-top: 63%;
+    }
+
+    .button-red {
+      width: 100%;
+      max-width: 300px;
+      height: 100%;
+      border: none;
+      background: $burgundy;
+      color: $white;
+      font-weight: 700;
+      border-radius: 3px;
+      transition: all 0.2s ease-out;
+      cursor: pointer;
+
+      @media (min-width: 765px) and (max-width: 1025px) {
+        width: 26%;
+      }
+
+      @media (min-width: 375px) and (max-width: 765px) {
+        max-width: 155px;
+      }
+
+      &:hover {
+        border: 1px solid $burgundy;
+        background: $white;
+        color: $burgundy;
+      }
+    }
+  }
+}

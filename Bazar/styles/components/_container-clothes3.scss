@@ -1,0 +1,126 @@
+.container-clothes3 {
+  margin: 0 auto;
+  padding: 100px 210px 0 210px;
+
+  .content1 {
+  	display: flex;
+
+  	.photo-big2 {
+  	  width: 100%;
+  	  max-width: 565px;
+
+  	  img {
+  	  	width: 100%;
+  	  }
+  	}
+
+  	.information2 {
+  	  padding-left: 55px;
+  	  padding-top: 75px;
+  	  width: 100%;
+
+  	  .inf2 {
+        width: 100%;
+        max-width: 610px;
+
+        h1 {
+  	  	  width: 165px;
+  	  	  margin-top: 2%;
+          margin-bottom: 1%;
+          font-weight: 400;
+          font-size: 50px;
+          line-height: 134%;
+  	    }
+
+  	    p {
+          margin-top: 4%;
+          margin-bottom: 10%;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 32px;
+  	    }
+  	  }
+
+  	  .button {
+  	  	width: 100%;
+        max-width: 300px;
+        height: 67px;
+
+        .button2 {
+          width: 100%;
+          max-width: 300px;
+          height: 67px;
+          color: $black;
+          background: $white;
+          border: 1px solid $gray;
+          cursor: pointer;
+          overflow: hidden;
+          font-family: 'Crimson Text';
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 22px;
+        }
+  	  }
+  	}
+  }
+
+  .content2 {
+  	display: flex;
+  	padding-top: 55px;
+
+  	.information3 {
+  	  padding-right: 85px;
+
+      h1 {
+      	padding-top: 15%;
+  	    font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 134%;
+  	  }
+
+  	  p {
+  	    width: 520px;
+  	    max-width: 520px;
+  	    margin-top: 4%;
+        margin-bottom: 10%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+  	  }
+
+  	  .button {
+  	  	width: 100%;
+        max-width: 300px;
+        height: 67px;
+
+        .button2 {
+          width: 100%;
+          max-width: 300px;
+          height: 67px;
+          color: $black;
+          background: $white;
+          border: 1px solid $gray;
+          cursor: pointer;
+          overflow: hidden;
+          font-family: 'Crimson Text';
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 22px;
+        }
+  	  }
+  	}
+
+  	.photo-two {
+  	  display: flex;
+  	  margin-right: -552px;
+      width: 100%;
+
+      img {
+        width: 400px;
+      }
+  	}
+  }
+}

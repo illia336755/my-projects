@@ -1,0 +1,153 @@
+footer {
+  background: $footer;
+  width: 100%;
+  max-width: 1600px;
+
+  .container-footer {
+  	padding: 22px 205px 0 205px;
+
+  	.block-menu {
+      display: flex;
+      margin: 0 0px;
+
+      .footer-menu {
+        flex: 1 1 auto;
+        margin: 0 5px;
+        padding: 0;
+        line-height: 2;
+
+        h4 {
+          color: $gray-text;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+        }
+
+        li {
+          width: 100%;
+          list-style-type: none;
+
+          .btn {
+            width: 100%;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            text-decoration: none;
+            color: $gray-text;
+          }
+        }
+      }
+
+      .right-m {
+        flex: 0;
+      }
+  	}
+
+  	.line {
+  	  margin-top: 65px;
+  	  border-bottom: 1px solid #515151;
+  	}
+
+  	.bottom-footer {
+  	  display: flex;
+      width: 100%;
+      margin: 0 0px;
+      padding-top: 4%;
+      padding-bottom: 100px;
+
+      .follow {
+      	width: 100%;
+      	max-width: 330px;
+
+      	h4 {
+      	  margin-top: 0;
+      	  color: $gray-text;
+      	  font-style: normal;
+      	  font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+      	}
+
+      	p {
+      	  color: $gray-text;
+      	  font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+      	}
+
+      	a {
+      	  width: 100%;
+      	}
+      }
+
+      .email {
+        width: 50%;
+
+        h4 {
+          margin-top: 0;
+          margin-bottom: 10%;
+      	  color: $gray-text;
+      	  font-style: normal;
+      	  font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+        }
+
+        .em {
+          display: flex;
+
+          input {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #504F4F;
+            color: #6B6969;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            width: 100%;
+            max-width: 310px;
+          }
+
+          .xx {
+          	margin-left: 5%;
+            width: 15px;
+            height: 5px;
+            margin-top: 2%;
+            border: 0;
+          }
+        }
+      }
+
+      .country {
+        width: 17%;
+
+        .can {
+          display: flex;
+          margin-top: 10px;
+
+          p {
+          	color: #6B6969;
+            font-style: normal;
+            font-weight: 400;
+            margin: 0;
+            font-size: 18px;
+            line-height: 23px;
+          }
+
+          h4 {
+          	color: $white;
+          	margin: 0;
+            font-style: normal;
+            margin-left: 10%;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+          }
+        }
+      }
+  	}
+  }
+}

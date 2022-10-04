@@ -1,0 +1,148 @@
+main {
+
+  .container-brands {
+    width: 100%;
+    background: $light-gray;
+    padding-bottom: 40px;
+
+    @media (min-width: 1024px) {
+      display: inline-block;
+      width: 50%;
+      max-width: 750px;
+      padding-bottom: 60px;
+    }
+
+    .text-brand {
+      text-align: left;
+      padding-top: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      @media (min-width: 765px) {
+        padding-left: 60px;
+      }
+
+      h3 {
+        width: 190px;
+        height: 80px;
+        color: $dark-gray;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 39px;
+
+        @media (min-width: 1024px) {
+          width: 365px;
+          height: 42px;
+          font-size: 32px;
+          line-height: 42px;
+        }
+
+        br {
+          @media (min-width: 1024px) {
+            display: none;
+          }
+        }
+      } 
+
+      p {
+        width: 290px;
+        height: 85px;
+        color: $dark-gray;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 21px;
+
+        @media (min-width: 1024px) {
+          width: 465px;
+          height: 95px;
+          font-size: 21px;
+          line-height: 31px;
+        }
+      }
+    }
+
+    .button-pink {
+      text-align: left;
+      height: 60px;
+      margin-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      @media (min-width: 765px) {
+        padding-left: 60px;
+      }
+
+      @media (min-width: 1024px) {
+        margin-top: 80px;
+      }
+
+      .button-gray {
+        width: 180px;
+        height: 60px;
+        background: $pink;
+        border: none;
+        color: $white;
+        font-weight: 700;
+        border-radius: 30px;
+        transition: all 0.5s ease-out;
+        cursor: pointer;
+
+        &:hover {
+          background: $dark-pink;
+        }
+
+        &:active {
+          background: $very-dark-pink;
+        }
+      }
+    }
+
+    .pink-arrow {
+      display: flex;
+      flex-direction: row;
+      width: 40%;
+      height: 60px;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      @media (min-width: 765px) {
+        padding-left: 60px;
+        margin-top: 30px;
+      }
+
+      @media (min-width: 1024px) {
+        margin-top: 150px;
+      }
+
+      .arrow {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border: 1px solid $pink;
+        border-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: $pink;
+        cursor: pointer;
+      }
+    }
+
+    .circles {
+      display: none;
+
+      @media (min-width: 1024px) {
+        display: inline-block;
+        width: 89px;
+        font-size: 10px;
+        height: 11px;
+        float: right;
+        margin-top: -25px;
+        margin-right: 50px;
+        color: $pink;
+      }
+    }
+  }
+}

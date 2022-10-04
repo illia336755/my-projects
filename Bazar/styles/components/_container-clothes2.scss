@@ -1,0 +1,139 @@
+.container-clothes2 {
+  margin: 0 auto;
+  padding: 100px 210px 0 210px;
+
+  .photo-cont {
+  	display: flex;
+
+  	.photo-big {
+  	  width: 100%;
+  	  max-width: 500px;
+
+  	  img {
+  	  	width: 100%;
+  	  }
+  	}
+
+  	.information {
+  	  padding-left: 75px;
+  	  padding-top: 75px;
+  	  width: 100%;
+
+  	  .inf {
+        width: 100%;
+        max-width: 520px;
+
+        h1 {
+  	  	  width: 330px;
+  	  	  margin-top: 2%;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 119.68%;
+  	    }
+
+  	    p {
+  	      font-style: normal;
+          margin-top: 15%;
+          margin-bottom: 10%;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 119.68%;
+  	    }
+  	  }
+
+  	  .button {
+  	  	width: 100%;
+        max-width: 300px;
+        height: 67px;
+
+        .button2 {
+          width: 100%;
+          max-width: 300px;
+          height: 67px;
+          color: $black;
+          background: $white;
+          border: 1px solid $gray;
+          cursor: pointer;
+          overflow: hidden;
+          font-family: 'Crimson Text';
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 22px;
+        }
+  	  }
+
+  	  .photo-small {
+  	  	width: 100%;
+  	  	max-width: 600px;
+  	  	margin-top: 170px;
+  	  	margin-left: 1%;
+
+  	  	img {
+  	  	  width: 100%;
+  	  	}
+  	  }
+  	}
+  }
+
+  .photo-video {
+  	position: relative;
+  	display: block;
+  	margin-left: -210px;
+    margin-right: -210px;
+    padding-top: 175px;
+    box-sizing: border-box;
+
+  	img {
+  	  width: 1600px;
+  	}
+
+  	.play-icon {
+      width: 145px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .circle {
+      	position: relative;
+      	margin-top: 80%;
+
+      	.sea {
+      	  position: absolute;
+      	  border-radius: 50%;
+      	  width:100%;
+      	}
+
+      	.logo {
+      	  position: absolute;
+      	  width: 26px;
+      	  height: 26px;
+      	  margin-top: 40%;
+          margin-left: 43%;
+      	}
+      }
+  	}
+  }
+
+  .text-more {
+  	display: flex;
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 170px;
+
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 134%;
+      text-align: center;
+    }
+  }
+
+  .name {
+  	width: 105px;
+    display: flex;
+    margin: 0 auto;
+    color: $gray;
+  }
+}
